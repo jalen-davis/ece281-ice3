@@ -16,7 +16,7 @@ end ripple_adder;
 architecture Behavioral of ripple_adder is
 
     -- Declare components here
-    --I added this and it is not working
+    --I added this
     component full_adder is
         Port ( 
            A : in  STD_LOGIC;

@@ -22,3 +22,10 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+![ripple_adder waveform with 5 tests](ice3_waveform.png)
+![rough sketch of top_basys3 entity](sketch.png)
+
+## Documentation
+
+I utilized chat gpt to help with some of my syntax. In my topbasys3.vhd file, I was mapping each of my inputs individually and getting errors, then chat told me to do the downto syntax
